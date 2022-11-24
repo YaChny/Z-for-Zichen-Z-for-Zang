@@ -43,8 +43,10 @@ h2{
 /* Skip to content */
 a.skip{
     font-family: var(--headings-font-family);
+    background-color: black;
     color: var(--link-hover);
-    background: white;
+    border: 2px solid var(--link-hover);
+    border-radius: 10px;
     left: 0;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -54,9 +56,9 @@ a.skip{
     top:-40px;
 }
   
-a.skip:focus{
+a.skip:focus, a.skip:active{
     position:absolute;
-    top:20px;
+    top:60px;
 }
 
 /* navigation */
