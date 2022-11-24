@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Gallery</title>
+    </head>
+    
+    <body class="portfoliopage">
+        <a class = "skip" href="#gallery">Skip to Main Content</a>
+        <header>
+            <nav>
+                <div class="nav_links" id="myTopnav">
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html" class="active">Portfolio</a>
+                    <a href="about.html">About</a>
+                    <div class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="portfolio" id="gallery">
+            <h1>Gallery of All Works</h1>
+            <div class="gallery">
+                <div class="work">
+                    <img src="img/loong.jpg" alt="loong">
+                </div>
+                <div class="work">
+                    <img src="img/flowerhat.jpg" alt="flowerhat">
+                </div>
+                <div class="work">
+                    <img src="img/g3.png" alt="g3">
+                </div>
+                <div class="work">
+                    <img src="img/mecolor.jpg" alt="mecolor">
+                </div>
+                <div class="work">
+                    <img src="img/megrey.jpg" alt="megrey">
+                </div>
+                <div class="work">
+                    <img src="img/g8.png" alt="g8">
+                </div>
+                <div class="work">
+                    <img src="img/g6.png" alt="g6">
+                </div>
+                <div class="work">
+                    <img src="img/lamp.jpg" alt="lamp">
+                </div>
+                <div class="work">
+                    <img src="img/g1.png" alt="g1">
+                </div>
+                <div class="work">
+                    <img src="img/g2.png" alt="g2">
+                </div>
+                <div class="work">
+                    <img src="img/g7.png" alt="g7">
+                </div>
+            </div>
+        </main>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "nav_links") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav_links";
+              }
+            }
+        </script>
+    </body>
+    <footer>
+        <div class="container-fluid ">
+            <div class="row justify-content-between align-items-center text-center">
+                <div class="col-sm-auto text-center">
+                    <a class="social" href="mailto:zichenzz@umich.edu"><img src="img/mail.svg" alt="Mail" style="width:23px;height:23px;"></a>
+                    <a class="social" href="https://www.instagram.com/yachny_z/"><img src="img/instagram.svg" alt="Instagram" style="width:23px;height:23px;"></a>
+                    <a class="social" href="https://linkedin.com/in/zichen-zang"><img src="img/linkedin.svg" alt="Linkedin" style="width:23px;height:23px;"></a>
+                    <a class="social" href="https://www.youtube.com/@Zichen_Z"><img src="img/youtube.svg" alt="Youtube" style="width:23px;height:23px;"></a>
+                </div>
+                <div class="col-sm-auto text-center">
+                    <p class="my-0">Copyright © 2022 Zichen Zang. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
