@@ -29,6 +29,7 @@ body{
 }
 
 p {
+    color: var(--body-text-color);
     font-size: 0.8rem;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
@@ -69,6 +70,7 @@ header{
     right: 0;
     justify-content: center;
     margin-bottom:20px;
+    z-index: 1000;
 }
 .nav_links {
     background-color: black;
@@ -157,6 +159,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    z-index: 1000;
 }
 
 footer a.social {
@@ -168,9 +171,11 @@ footer a.social {
     margin-top: 3px;
     margin-bottom: 4px;
 }
-    
 footer a.social:hover, footer a.social:focus {
     filter: brightness(2);
+}
+p.my-0{
+    color: white;
 }
 
 /*home page*/
@@ -352,6 +357,19 @@ h3 {
 /*gallery*/
 .portfolio{
     text-align: center;
+    margin-bottom: 100px;
+}
+.portfolio h1{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.portfolio img{
+    transition: all 0.5s; 
+}
+.portfolio img:hover{
+    filter: brightness(1.2);
+    box-shadow: 0 3px 15px 0 var(--purple)!important;
+    z-index: 1;
 }
 
 .gallery{
@@ -365,8 +383,53 @@ h3 {
     gap: 10px;
 }
 
-.work img{
-    max-width: 80%;
+a.modal{
+    display: contents;
+}
+.Worktitle {
+    display: block;
+    font-family: var(--headings-font-family);
+    color: var(--title-color);
+    font-size: 1.666rem;
+    font-style: italic;
+    margin: 5px;
+}
+h2.Workinfo {
+    font-family: var(--body-font-family);
+    color: var(--main-purple);
+    font-size: 0.888rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+}
+h3.scroll {
+    font-family: var(--body-font-family);
+    color: var(--main-purple);
+    font-size: 0.888rem;
+    font-weight: bold;
+}
+.row h4{
+    font-family: var(--headings-font-family);
+    color: var(--title-color);
+    font-size: 1.222rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+img.modalimg{
+    padding-top: 10px;
+    max-height: max-content;
+}
+a.back, a.next, a.prev{
+    font-family: var(--body-font-family);
+    color: var(--purple);
+}
+a.back:focus, a.next:focus, a.prev:focus{
+    color: var(--link-hover);
+}
+a.back:hover, a.next:hover, a.prev:hover{
+    color: var(--link-hover);
+}
+img.work{
+    max-width: 46%;
 }
 
 

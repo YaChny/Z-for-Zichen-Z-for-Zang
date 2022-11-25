@@ -25,41 +25,30 @@
         </header>
 
         <main class="portfolio" id="gallery">
-            <h1>Gallery of All Works</h1>
+            <h1>Gallery</h1>
             <div class="gallery">
-                <div class="work">
-                    <img src="img/loong.jpg" alt="loong">
-                </div>
-                <div class="work">
-                    <img src="img/flowerhat.jpg" alt="flowerhat">
-                </div>
-                <div class="work">
-                    <img src="img/g3.png" alt="g3">
-                </div>
-                <div class="work">
-                    <img src="img/mecolor.jpg" alt="mecolor">
-                </div>
-                <div class="work">
-                    <img src="img/megrey.jpg" alt="megrey">
-                </div>
-                <div class="work">
-                    <img src="img/g8.png" alt="g8">
-                </div>
-                <div class="work">
-                    <img src="img/g6.png" alt="g6">
-                </div>
-                <div class="work">
-                    <img src="img/lamp.jpg" alt="lamp">
-                </div>
-                <div class="work">
-                    <img src="img/g1.png" alt="g1">
-                </div>
-                <div class="work">
-                    <img src="img/g2.png" alt="g2">
-                </div>
-                <div class="work">
-                    <img src="img/g7.png" alt="g7">
-                </div>
+                <a href="#modal1" data-bs-toggle="modal" class="modal">
+                    <img class="work" src="img/flowerhat.jpg" alt="FlowerHat">
+                </a>
+                <a href="#modal2" data-bs-toggle="modal" class="modal">
+                    <img class="work" src="img/loong.jpg" alt="Loong">
+                </a>
+                <a href="#modal3" data-bs-toggle="modal" class="modal">
+                    <img class="work" src="img/megrey.jpg" alt="MeGrey">
+                </a>
+                <a href="#modal4" data-bs-toggle="modal" class="modal">
+                    <img class="work" src="img/mecolor.jpg" alt="MeColor">
+                </a>
+                <a href="#modal5" data-bs-toggle="modal" class="modal">
+                    <img class="work" src="img/lamp.jpg" alt="Lattern">
+                </a>
+                <img class="work" src="img/calendar.jpg" alt="Calendar">
+                <img class="work" src="img/jellyfish.jpg" alt="Jellyfish">
+                <img class="work" src="img/woodblock.jpg" alt="WoodBlock">
+                <img class="work" src="img/banana.jpg" alt="BananaBulb">
+                <img class="work" src="img/fiber.jpg" alt="Fiber">
+                <img class="work" src="img/pearl.jpg" alt="Pearl">
+                <img class="work" src="img/death.jpg" alt="Death">
             </div>
         </main>
 
@@ -72,6 +61,10 @@
                 x.className = "nav_links";
               }
             }
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
     </body>
     <footer>
@@ -90,3 +83,412 @@
         </div>
     </footer>
 </html>
+
+<!--modal 1-->
+<div class="portfolio-modal  modal fade" id="modal1" tabindex="-1 " role="dialog " aria-hidden="true" aria-label="true">
+    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+            <div class="modal-body" tabindex="0">
+                <div class="modal-inner">
+                    <!--content-->
+                    <div class="container">
+                        <div class="row justify-content-center align-items-start text-center">
+                            <div class="col-sm-5">
+                                <img class="modalimg" src="img/flowerhatonly.jpg" alt="FlowerhatOnly">
+                            </div>
+                            <div class="col-sm-7">
+                                <h1 class="Worktitle">Blooming Head</h1>
+                                <h2 class="Workinfo">Medium: Bamboo Skewers & Tissue Paper</h2>
+                                <h2 class="Workinfo">Date: 2021.11</h2>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-sm-6">
+                                <img class="modalimg" src="img/flowerhatdetail.jpg" alt="flower1">
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="modalimg" src="img/flowerhatonpeople.jpg" alt="flower2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end-->
+            <div class="modal-footer border-0 justify-content-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-bs-dismiss="modal">Back to Gallery</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="next" href="#modal2" data-bs-toggle="modal">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal 2 -->
+<div class="portfolio-modal  modal fade" id="modal2" tabindex="-1 " role="dialog " aria-hidden="true" aria-label="true">
+    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" tabindex="0">
+                <div class="modal-inner">
+                    <!--content-->
+                    <div class="container">
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-5">
+                                <img class="modalimg" src="img/loong.jpg" alt="loong">
+                            </div>
+                            <div class="col-sm-7">
+                                <h1 class="Worktitle">Loong</h1>
+                                <h2 class="Workinfo">Medium: Paper, Micron Pen</h2>
+                                <h2 class="Workinfo">Date: 2021.12</h2>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.</p>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.</p>
+                                <h3 class="scroll">Scroll down to see the process</h3>
+                            </div>
+                        </div>
+                        <div class="row"><h4>Process</h4></div>
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l0.jpeg" alt="l0">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l1.jpeg" alt="l1">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l2.jpeg" alt="l2">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l3.jpeg" alt="l3">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l4.jpeg" alt="l4">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l5.jpeg" alt="l5">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l6.jpeg" alt="l6">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/l7.jpeg" alt="l7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end-->
+            <div class="modal-footer border-0 justify-content-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-bs-dismiss="modal">Back to Gallery</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#modal1" data-bs-toggle="modal">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#modal3" data-bs-toggle="modal">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal 3 -->
+<div class="portfolio-modal  modal fade" id="modal3" tabindex="-1 " role="dialog " aria-hidden="true" aria-label="true">
+    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" tabindex="0">
+                <div class="modal-inner">
+                    <!--content-->
+                    <div class="container">
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-4">
+                                <div id="greyme" class="carousel slide" data-bs-ride="carousel">
+
+                                    <!-- Indicators/dots -->
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#greyme" data-bs-slide-to="0"
+                                            class="active" title="firstimg"></button>
+                                        <button type="button" data-bs-target="#greyme" data-bs-slide-to="1" title="secondimg"></button>
+                                        <button type="button" data-bs-target="#greyme" data-bs-slide-to="2" title="thirdimg"></button>
+                                    </div>
+                                    <!-- The slideshow/carousel -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100 modalimg" src="img/mephoto.jpg" alt="mephoto">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 modalimg" src="img/grey.jpg" alt="grey">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 modalimg" src="img/blackwhite.jpg" alt="blackwhite">
+                                        </div>
+                                    </div>
+                                    <!-- Left and right controls/icons -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#greyme"
+                                        data-bs-slide="prev" title="previmg">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#greyme"
+                                        data-bs-slide="next" title="nextimg">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <br>
+                                <h1 class="Worktitle">Me: Black Grey White</h1>
+                                <h2 class="Workinfo">Medium: Paper, Ink, Paints</h2>
+                                <h2 class="Workinfo">Date: 2021.10</h2>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                                <h3 class="scroll">Scroll down to see the process</h3>
+                            </div>
+                        </div>
+                        <div class="row"><h4>Process</h4></div>
+                        <div class="row justify-content-center align-items-start"> 
+                            <div class="col-sm-5">
+                                <img class="modalimg" src="img/two1.jpeg" alt="two1">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/two2.jpeg" alt="two2">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/two3.jpeg" alt="two3">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--end-->
+            <div class="modal-footer border-0 justify-content-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-bs-dismiss="modal">Back to Gallery</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#modal2" data-bs-toggle="modal">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#modal4" data-bs-toggle="modal">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal 4 -->
+<div class="portfolio-modal  modal fade" id="modal4" tabindex="-1 " role="dialog " aria-hidden="true" aria-label="true">
+    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" tabindex="0">
+                <div class="modal-inner">
+                    <!--content-->
+                    <div class="container">
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-4">
+                                <div id="colorme" class="carousel slide" data-bs-ride="carousel">
+
+                                    <!-- Indicators/dots -->
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#colorme" data-bs-slide-to="0"
+                                            class="active" title="firstimg"></button>
+                                        <button type="button" data-bs-target="#colorme" data-bs-slide-to="1" title="secondimg"></button>
+                                        <button type="button" data-bs-target="#colorme" data-bs-slide-to="2" title="thirdimg"></button>
+                                    </div>
+                                    <!-- The slideshow/carousel -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/twocolor.jpg" alt="twocolor"
+                                                class="modalimg d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/patterncolor.jpg" alt="patterncolor" class="modalimg d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/colorful.jpg" alt="colorful" class="modalimg d-block w-100">
+                                        </div>
+                                    </div>
+                                    <!-- Left and right controls/icons -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#colorme"
+                                        data-bs-slide="prev" title="previmg">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#colorme"
+                                        data-bs-slide="next" title="nextimg">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <br>
+                                <br>
+                                <h1 class="Worktitle">Me: Color</h1>
+                                <h2 class="Workinfo">Medium: Paper, Ink, Paints</h2>
+                                <h2 class="Workinfo">Date: 2021.11</h2>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                                <h3 class="scroll">Scroll down to see the process</h3>
+                            </div>
+                        </div>
+                        <div class="row"><h4>Process</h4></div>
+                        <div class="row justify-content-center align-items-start"> 
+                            <div class="col-sm-4">
+                                <img class="modalimg" src="img/c1.jpeg" alt="c1">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="modalimg" src="img/c2.jpeg" alt="c2">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-start"> 
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/c3.jpeg" alt="c3">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/c4.jpeg" alt="c4">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/c5.jpeg" alt="c5">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-start"> 
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/c6.jpeg" alt="c6">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/c7.jpeg" alt="c7">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="modalimg" src="img/c8.jpeg" alt="c8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of portfolio modal-->
+            <div class="modal-footer border-0 justify-content-center">
+                <div class="container">
+                    <!--                    To change this layout, add the justify-content-start or justify-content-end or justify-content-between-->
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-bs-dismiss="modal">Back to Gallery</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#modal3" data-bs-toggle="modal">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#modal5" data-bs-toggle="modal">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal 5 -->
+<div class="portfolio-modal  modal fade" id="modal5" tabindex="-1 " role="dialog " aria-hidden="true" aria-label="true">
+    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" tabindex="0">
+                <div class="modal-inner">
+                    <!--content-->
+                    <div class="container">
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-5">
+                                <img class="modalimg w-80" src="img/lampmain.jpg" alt="lamp">
+                            </div>
+                            <div class="col-sm-7">
+                                <h1 class="Worktitle">Lattern</h1>
+                                <h2 class="Workinfo">Medium: Taskboard, Tissue Paper, Plastic Paper</h2>
+                                <h2 class="Workinfo">Date: 2021.12-2022.03</h2>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                                <p>Project description. Another exciting bit of representative placeholder content. Add
+                                    more to here.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-8">
+                                <div class="ratio ratio-16x9">
+                                    <video width="100%" controls loop>
+                                        <source src="video/LatternVideo.mp4" type="video/mp4">
+                                        <track kind="captions">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-start">
+                            <div class="col-sm-5">
+                                <img class="modalimg" src="img/lattern1.jpg" alt="lattern1">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="modalimg" src="img/lattern2.jpg" alt="lattern2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end-->
+            <div class="modal-footer border-0 justify-content-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-bs-dismiss="modal">Back to Gallery</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#modal4" data-bs-toggle="modal">Prev</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
