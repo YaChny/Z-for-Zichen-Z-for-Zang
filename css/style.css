@@ -434,7 +434,7 @@ img.work{
 
 
 /*media screen*/
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
     header{
         flex-direction: row;
         justify-content: center;
@@ -444,6 +444,35 @@ img.work{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        background-color: black;
+        overflow: hidden;
+    }
+    .nav_links a{
+        font-family: var(--headings-font-family);
+        float: left;
+        display: block;
+        color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+    .nav_links.responsive .icon {
+      display: none;
+    }
+    .nav_links.responsive {
+        position: relative;
+    }
+    .nav_links.responsive a {
+      float: left;
+      display: block;
+      text-align: left;
+    }
+    .nav_links a:not(.active) {
+        display:block;
+    }
+    .nav_links .icon {
+        display: none;
     }
 
     /*homepage*/
@@ -471,7 +500,6 @@ img.work{
     /*footer*/
     footer {
         position: fixed;
-        font-size: 0.7rem;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -481,7 +509,7 @@ img.work{
         margin-bottom: 3px;
     }
     p.my-0{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     /*About page*/
@@ -496,9 +524,6 @@ img.work{
         text-align: center;
         overflow: auto;
         max-height: 280px;
-    }
-    .aboutname{
-        font-size: 2.3rem;
     }
     .aboutbox p{
         font-size: 0.8rem;
@@ -545,41 +570,23 @@ img.work{
         margin: 13px;
     }
 
+    /*Portfolio*/
+    img.work{
+        max-width: 70%;
+    }
+    .modal-inner p{
+        font-size: 0.777rem;
+    }
+    .Worktitle{
+        font-size: 1.444rem;
+    }
+    h2.Workinfo{
+        font-size: 0.777rem;
+    }
+
 }
 
-@media screen and (min-width: 900px) {
-    .nav_links {
-        background-color: black;
-        overflow: hidden;
-    }
-    .nav_links a{
-        font-family: var(--headings-font-family);
-        float: left;
-        display: block;
-        color: rgba(255, 255, 255, 0.7);
-        text-align: center;
-        padding: 12px 14px;
-        text-decoration: none;
-        font-size: 1.1rem;
-    }
-    .nav_links.responsive .icon {
-      display: none;
-    }
-    .nav_links.responsive {
-        position: relative;
-    }
-    .nav_links.responsive a {
-      float: left;
-      display: block;
-      text-align: left;
-    }
-    .nav_links a:not(.active) {
-        display:block;
-    }
-    .nav_links .icon {
-        display: none;
-    }
-
+@media screen and (min-width: 992px) {
     /*homepage*/
     .homepage{
         margin-bottom:20px;
@@ -604,9 +611,6 @@ img.work{
     }
 
     /*footer*/
-    p.my-0{
-        font-size: 0.8rem;
-    }
     footer a.social {
         margin-top: 2px;
         margin-bottom: 2px;
@@ -673,5 +677,26 @@ img.work{
     .brand img{
         max-width: 150px;
         margin: 15px;
+    }
+
+    /*Portfolio*/
+    img.work{
+        max-width: 90%;
+    }
+
+    .modal-inner p{
+        font-size: 1rem;
+    }
+    .Worktitle{
+        font-size: 1.888rem;
+    }
+    h2.Workinfo{
+        font-size: 1.222rem;
+    }
+    h3.scroll{
+        font-size: 0.999rem;
+    }
+    .row h4{
+        font-size: 1.555rem;
     }
 }
