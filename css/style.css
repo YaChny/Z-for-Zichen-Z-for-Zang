@@ -441,8 +441,9 @@ img.work{
         align-items: center;
     }
     .nav_links {
+        display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         background-color: black;
         overflow: hidden;
@@ -587,6 +588,11 @@ img.work{
 }
 
 @media screen and (min-width: 992px) {
+    /*nav*/
+    .nav_links {
+        display:block;
+        justify-content: center;
+    }
     /*homepage*/
     .homepage{
         margin-bottom:20px;
