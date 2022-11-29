@@ -375,7 +375,7 @@ h3 {
 
 .gallery{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -387,7 +387,7 @@ h3 {
 a.modal{
     display: contents;
 }
-.Worktitle {
+.worktitle {
     display: block;
     font-family: var(--headings-font-family);
     color: var(--title-color);
@@ -395,7 +395,7 @@ a.modal{
     font-style: italic;
     margin: 5px;
 }
-h2.Workinfo {
+h2.workinfo {
     font-family: var(--body-font-family);
     color: var(--main-purple);
     font-size: 0.888rem;
@@ -573,16 +573,19 @@ img.work{
     }
 
     /*Portfolio*/
+    .gallery{
+        flex-direction: row;
+    }
     img.work{
         max-width: 70%;
     }
     .modal-inner p{
         font-size: 0.777rem;
     }
-    .Worktitle{
+    .worktitle{
         font-size: 1.444rem;
     }
-    h2.Workinfo{
+    h2.workinfo{
         font-size: 0.777rem;
     }
 
@@ -694,11 +697,13 @@ img.work{
     .modal-inner p{
         font-size: 1rem;
     }
-    .Worktitle{
+    .worktitle{
         font-size: 1.888rem;
     }
-    h2.Workinfo{
+    h2.workinfo{
         font-size: 1.222rem;
+        line-height: 1.4rem;
+        margin-top: 0.1rem;
     }
     h3.scroll{
         font-size: 0.999rem;
