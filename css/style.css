@@ -575,6 +575,7 @@ img.work{
     /*Portfolio*/
     .gallery{
         flex-direction: row;
+        justify-content: space-around;
     }
     img.work{
         max-width: 70%;
@@ -690,6 +691,9 @@ img.work{
     }
 
     /*Portfolio*/
+    .gallery{
+        justify-content: center;
+    }
     img.work{
         max-width: 90%;
     }
